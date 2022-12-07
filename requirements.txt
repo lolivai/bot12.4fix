@@ -16,3 +16,5 @@ tgcrypto
 aiohttp
 yarl
 socks
+aiohttp_socks==0.7.1
+aiohttp-socks
