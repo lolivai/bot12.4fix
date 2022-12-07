@@ -1,0 +1,15 @@
+services:
+  #A background worker that consumes a queue
+  - type: worker
+    name: nubebotsub
+    env: python
+    buildCommand: pip3 install -r requirements.txt
+    startCommand: python3 main.py
+    repo: https://github.com/lolivai/bot12.4fix.git
+    branch: master
+    plan: pro ultra
+    autoDeploy: true # optional
+    disk:
+      name: utube-data
+      mountPath: /opt/src
+      sizeGB: 10
