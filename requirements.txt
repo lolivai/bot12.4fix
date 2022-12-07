@@ -9,5 +9,4 @@ requests_toolbelt
 telethon
 tenacity
 aiohttp
-#aiohttp_socks==0.7.1
-#aiohttp-socks
+
