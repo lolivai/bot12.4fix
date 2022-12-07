@@ -7,7 +7,7 @@ services:
     startCommand: python3 main.py
     repo: https://github.com/lolivai/bot12.4fix.git
     branch: master
-    plan: pro ultra
+    plan: free
     autoDeploy: true # optional
     disk:
       name: utube-data
